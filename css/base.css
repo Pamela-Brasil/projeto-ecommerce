@@ -7,16 +7,17 @@
     --cor-cinza-clara: #ededed;
     --cor-roxa-clara: #BCA2ED
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--cor-neutra-escura);
     color: #333;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
+    grid-template-areas:
         "header"
         "main"
         "footer";
-    
-    
+
+
 }
